@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Catalog from "./components/catalog";
 import dummyData from "./data/dummyData.json";
+import Information from "./components/Information";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <Information />
     </>
   );
 }
