@@ -13,9 +13,9 @@ const Header = () => {
           <Link className="hover:underline" href="/">
             Beranda
           </Link>
-          <a className="hover:underline" href="#">
+          <Link className="hover:underline" href="/produk">
             Produk
-          </a>
+          </Link>
           <Link className="hover:underline" href="/tentang-kami">
             Tentang Kami
           </Link>
